@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Description
+This is an example front-end UI of amazon page.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
