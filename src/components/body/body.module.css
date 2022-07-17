@@ -5,6 +5,7 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 16px;
 }
 
 .colorVariety {
@@ -67,4 +68,25 @@
     font-weight: bolder;
     font-size: 32px;
     color: white;
+}
+
+
+/* The dimensions are used keeping in mind the Ipad pro "12.9" and lower. */
+@media only screen and (max-width: 1024px),
+(min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2),
+(min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2),
+(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .section {
+        grid-template-columns: 100%;
+    }
+
+    .displaySection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .selectedImage {
+        width: 75%;
+    }
 }
